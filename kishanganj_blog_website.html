@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kishanganj District — Local Blog</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto, "Helvetica Neue",Arial;margin:0;color:#111}
+    header{background:linear-gradient(90deg,#0f766e,#34d399);color:white;padding:2rem}
+    .container{max-width:900px;margin:1rem auto;padding:0 1rem}
+    h1,h2{margin:0 0 .5rem}
+    p{line-height:1.5}
+    nav a{color:white;margin-right:1rem}
+    .grid{display:grid;grid-template-columns:1fr;gap:1rem}
+    .card{background:#fff;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,.08);padding:1rem}
+    .gallery a{display:block;margin-bottom:.5rem}
+    footer{font-size:.9rem;color:#666;padding:2rem 0}
+    @media(min-width:800px){.grid{grid-template-columns:2fr 1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav><a href="#about">About</a><a href="#agri">Agriculture</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+      <h1>Kishanganj — A Local Blog</h1>
+      <p>Stories, farms & people from Kishanganj district (Bihar).</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Kishanganj</h2>
+      <p>Kishanganj is a district in the northeastern part of Bihar, bordering West Bengal and close to Nepal. It covers around 1,884 km² and (as per 2011 census) has a population of roughly 1.69 million. The district is noted for being the only tea-producing district in Bihar and has a mixed agricultural economy. (Sources are linked in the blog footer.)</p>
+    </section>
+
+    <div class="grid">
+      <section id="agri" class="card">
+        <h2>Agriculture: Tea & Pineapple</h2>
+        <p>Tea cultivation started expanding in Kishanganj in the 1990s; today several thousand hectares are under tea, with both smallholders and estate growers. The district also grows pineapple and other horticultural crops — pineapple orchards are locally important and contribute to farmers' incomes.</p>
+        <h3>Why tea in Kishanganj?</h3>
+        <p>The climate and soils in parts of Kishanganj (blocks such as Pothia and Thakurganj) are suitable for tea. Specialty gardens in the area have even won awards. Tea brings seasonal employment and has become a visible feature of the district landscape.</p>
+      </section>
+
+      <aside class="card">
+        <h2>Quick facts</h2>
+        <ul>
+          <li>Area: ~1,884 km²</li>
+          <li>Population (2011): ~1.69 million</li>
+          <li>Literacy (district-level, 2011): ~57%</li>
+          <li>Languages: Surajpuri, Urdu, Hindi, Bengali and others</li>
+        </ul>
+      </aside>
+    </div>
+
+    <section id="gallery" class="card">
+      <h2>Gallery — Tea gardens & Pineapple farms</h2>
+      <p>Below are source links and image pages where you can download photos for the blog. To include the images on this website, download the images and place them in an <code>/images</code> folder, then update the <code>&lt;img src="..."&gt;</code> paths.</p>
+
+      <div class="gallery">
+        <a href="https://www.forbesindia.com/article/recliner/a-new-home-of-fine-tea-bihar/47909/1" target="_blank">Doke Tea Garden — Forbes article & photos (good for high-quality tea-garden images)</a>
+        <a href="https://www.thehansindia.com/news/national/with-kishanganj-becoming-a-big-tea-producer-bihar-govt-mulls-tea-city-plan-803937" target="_blank">News: Kishanganj tea expansion (The Hans India)</a>
+        <a href="https://en.gaonconnection.com/english/kishanganj-bihar-darjeeling-tea-cultivation-farmers-government-support-agriculture-subsidies-west-bengal-poverty-50578/" target="_blank">Field story on smallholder tea growers (Gaon Connection)</a>
+        <a href="https://sahasa.in/2021/11/15/kishanganj-pineapple/" target="_blank">Pineapple cultivation in Kishanganj (photo & writeup)</a>
+        <a href="https://www.flickr.com/photos/25553232@N08/3268173939" target="_blank">Flickr: Tea plantation photos (free-to-view; check licence before reuse)</a>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact & Contributor Info</h2>
+      <p>Want to contribute photos, stories, or corrections? Add a simple email contact form or just list an email. Example placeholder below — replace with your contact details.</p>
+      <p><strong>Email:</strong> <a href="mailto:mk228sinha@gmail.com">mk228sinha@gmail.com</a></p>
+    </section>
+
+    <footer>
+      <p>Sources used to create content: Wikipedia (Kishanganj district), The Hans India, Forbes India, GaonConnection, Sahasa.in.</p>
+      <p>How to use this file: Save this HTML as <code>Kishanganj-Blog-Website.html</code>. Create an <code>images</code> folder, download pictures from the linked pages, and update the &lt;img&gt; tags with local file paths. Then open the HTML in a browser or push to GitHub Pages / Netlify to publish.</p>
+    </footer>
+  </main>
+</body>
+</html>
